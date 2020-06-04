@@ -1,0 +1,12 @@
+1.add
+在git中git add表示添加内容到本地仓库的暂存区stage中，其中git add命令包括三种形式
+git add . :表示提交修改和新增加的文件到暂存区中，其中不包括被删除的文件
+git add -u :表示提交被修改和删除的文件到暂存区中，其中不包括新添加的文件
+git -A :表示提交所有变化到暂存区中，git -A综合了git add .和git add -u的功能
+
+
+2.commit
+commit命令把当前stage中的暂存文件提交到当前分支的仓库中，并清空stage区。
+
+3.push
+push命令把本地仓库中的提交更新到远程仓库
